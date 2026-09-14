@@ -1,0 +1,4 @@
+Chapter 6: What is the difference between dictionaries and lists?
+A dictionary and a list are both used to store multiple pieces of data in python, but they organize that data in different ways. A list stores items in a specific order, and each item is accessed by its position, called an index. For example, in a list like ["apple", "banana","orange"], "apple" is at index 0 and "banana" is at index 1.
+A dictionary stores data using key value pairs instead of positions. Each key is connected to a value. For example, {"name": "Colin", "age", 20} uses "name" and "age" as keys. You can access "Colin" by using the key "name".
+Lists are useful when the order of items matters or when you have a group of similar values. Dictionaries are better when you want to label information and look it up by a specific name. In short, lists use indexes, while dictionaries use keys to access stored data.
