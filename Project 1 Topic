@@ -1,0 +1,4 @@
+# Project 1 Idea
+For Project 1, I chose to create a **Video Game Backlog Tracker**.
+The program will allow the user to add video games to a list, view their games, search for a game, mark games as completed, and view basic statistics about their backlog.
+I chose this project because I enjoy video games, and it will allow me to use several Python concepts from Chapters 1–7, including variables, lists, dictionaries, if/elif/else statements, loops, functions, and user input.
