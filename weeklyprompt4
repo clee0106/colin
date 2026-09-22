@@ -1,0 +1,4 @@
+Question 5: Describe refactoring and it’s benefits.
+Refactoring is the process of improving and reorganizing code without changing what program its supposed to be. The program might already work correctly, but the code could still be messy or difficult to understand. Refactoring helps clean the code up and makes it easier to work with.
+One way to refactor code is to take one section of the code and divide it into smaller functions. Each function can have one specific job instead of having one large fuction that does different things. This makes it easier to understand what each part of the program is responsible for. It can also making debugging easier because you can focus on the smaller section of code when something goes wrong.
+Another benefit of refactoring is that it makes program easier to update or add new features to later. Overall, refactoring helps make code cleaner, easier to read, maintain, and expand.
