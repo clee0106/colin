@@ -14,7 +14,18 @@ print("7. Quit")
 
 choice = input("Enter your choice: ")
 if choice == "1":
-  print("Add a game selected")
+  title = input("Enter the game title: ")
+  genre = input("Enter the game genre: ")
+  status = input("Enter the game status: ")
+  
+  game = {
+    "title": title,
+    "genre": genre,
+    "status": status
+  }
+  games.append(game)
+
+  print(title, "was added to your backlog!")
 elif choice == "2":
   print("View games selected")
 elif choice == "3":
