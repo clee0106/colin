@@ -34,7 +34,19 @@ while True:
         for game in games:
           print(game["title"], "-", game["genre"], "-", game["status"])
   elif choice == "3":
-    print("Search for a game selected")
+    search = input("Enter the game title:")
+
+    found = False
+
+    for game in games:
+      if game["title"].lower() == search.lower():
+          print("Game found!")
+          print("Title:", game["title"])
+          print("Genre:", game["genre"])
+          print("Status:", game["status"])
+          found = True
+    if not found:
+        print("Game not found.")
   elif choice == "4":
     print("Mark a game as completed selected")
   elif choice == "5":
