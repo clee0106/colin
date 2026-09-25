@@ -62,7 +62,25 @@ while True:
     if not found:
         print("Game not found.")
   elif choice == "5":
-    print("Rate a game selected")
+    title = input("Enter the game title: ")
+
+    found = False
+
+    for game in games:
+      if game["title"].lower() == title.lower():
+          rating = input("Rate this game from 1 to 10: ")
+
+          if rating.isdigit() and 1 <= int(rating) <= 10:
+              game["rating"] = int(rating)
+              print(title, "has been rated", rating, "out of 10!")
+          else:
+              print("Invalid rating. Enter a number from 1 to 10.")
+
+          found = True
+          break
+
+  if not found:
+      print("Game not found.")
   elif choice == "6":
     print("Show statistics selected")
   elif choice == "7":
