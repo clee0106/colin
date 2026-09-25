@@ -48,7 +48,19 @@ while True:
     if not found:
         print("Game not found.")
   elif choice == "4":
-    print("Mark a game as completed selected")
+    title = input("Enter the game title: ")
+
+    found = False
+
+    for game in games:
+      if game["title"].lower() == title.lower():
+          game["status"] = "Completed"
+          print(title, "has been marked as completed!")
+          found = True
+          break
+
+    if not found:
+        print("Game not found.")
   elif choice == "5":
     print("Rate a game selected")
   elif choice == "6":
