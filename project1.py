@@ -1,5 +1,11 @@
-# Project 1 - Video Game Backlog Tracker
 
+"""
+Program: Video Game Backlog Tracker
+Author: Colin Lee
+Purpose: Allow users to add, view, search, complete, and rate video games while tracking statistics.
+Resources: Python Crash Course, 3rd Edition;
+Date: September 25, 2026
+"""
 games = []
 
 print("Welcome to the Video Game Backlog Tracker!")
