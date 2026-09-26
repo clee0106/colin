@@ -33,6 +33,9 @@ while True:
       else:
         for game in games:
           print(game["title"], "-", game["genre"], "-", game["status"])
+
+          if "rating" in game:
+              print("Rating:", game["rating"], "/10")
   elif choice == "3":
     search = input("Enter the game title:")
 
