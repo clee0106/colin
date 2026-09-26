@@ -82,7 +82,19 @@ while True:
     if not found:
         print("Game not found.")
   elif choice == "6":
-    print("Show statistics selected")
+      total_games = len(games)
+      completed_games = 0
+
+      for game in games:
+          if game["status"].lower() == "completed":
+              completed_games += 1
+
+      remaining_games = total_games - completed_games
+
+      print("\nGame Statistics")
+      print("Total games:", total_games)
+      print("Completed games:", completed_games)
+      print("Remaining games:", remaining_games)
   elif choice == "7":
     print("Goodbye!")
     break
