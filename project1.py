@@ -64,7 +64,7 @@ while True:
   elif choice == "5":
     title = input("Enter the game title: ")
 
-    found = False
+      found = False
 
     for game in games:
       if game["title"].lower() == title.lower():
@@ -79,8 +79,8 @@ while True:
           found = True
           break
 
-  if not found:
-      print("Game not found.")
+    if not found:
+        print("Game not found.")
   elif choice == "6":
     print("Show statistics selected")
   elif choice == "7":
